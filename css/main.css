@@ -29,7 +29,11 @@ body {
   margin-top: 0;
 }
 
-img {
+.card-img img {
+  padding: 0;
+}
+
+ img {
   width: 50px;
   height: auto;
   display: block;
@@ -38,13 +42,13 @@ img {
   margin-bottom: .75rem;
 }
 
-.card h2,
+.card-body h2,
 p {
   font-weight: normal;
   margin: 0;
 }
 
-.card p {
+.card-body p {
   margin-bottom: .75rem;
 }
 
@@ -83,7 +87,7 @@ p {
      display: flex;
    }
 
-   .card {
+   .card-body {
      position: relative;
      margin-top: 4rem;
    }
@@ -115,20 +119,5 @@ p {
   html {
     font-size: 130%;
   }
-
-
-
-}
-
-
-
-
-}
-
-
-
-}
-
-
 
 }
